@@ -11,9 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const fatores = {
       carro: 0.192,
       onibus: 0.105,
-      moto: 0.094,
-      bicicleta: 0.0,
-      caminhada: 0.0
+      moto: 0.094
     };
 
     const co2 = (fatores[transporte] * distancia).toFixed(2);
